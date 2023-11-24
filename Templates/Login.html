@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/290cdfd1a5.js" crossorigin="anonymous"></script>
+    <title>Formulario de Login</title>
+    <!--page-icon------->
+    <link rel="stylesheet" href="../css/Login.css">
+    <link rel="icon" href="../Imagenes/form_imagen.png">
+</head>
+
+<body>
+  
+  <header>
+    <a href="../home.html"><img class="logo" src="../Imagenes/LOGO_GOLDEN OIL SPAIN.png" alt="logo"/></a>
+      <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+      <nav class="nav" id="nav">
+          <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+          <ul class="nav-list">
+            <li><a href="/Templates/historia.html">Historia</a></li>
+            <li><a href="/Templates/productos.html">Productos</a></li>
+            <li><a href="/Templates/Form_Jv.html">Registro</a></li>
+            <li><a href="/Templates/Login.html">Login</a></li>
+            <li><a href="/Templates/carrito.html">Carrito</a></li>
+          </ul>
+      </nav>
+  </header>
+
+    <section>
+      <div class="contenedor">
+        <div class="formulario">
+          <form action="#">
+              <h2>Iniciar Sesión</h2>
+
+              <div class="input-contenedor">
+                  <i class="fa-solid fa-envelope"></i>
+                  <input type="email" requiered>
+                  <label for="#">Email</label>
+              </div>
+
+              <div class="input-contenedor">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" requiered>
+                <label for="#">Contraseña</label>
+              </div>
+
+              <div class="olvidar">
+              <label for="#">
+                <input type="checkbox"> Recordar
+                <a href="#">olvidé la contraseña</a>
+              </label>
+              </div>
+          </form>
+          </div>
+              <button>Acceder</button>
+
+              <div class="registrar">
+                  <p>No tengo cuenta <a href="#"> Crear una cuenta</a></p>
+              </div>
+
+          </div> 
+      </div>
+
+    </section>
+  
+
+  <footer class="footer">    
+    
+    <!--Redes Sociales-->
+    <div class="container-redes">
+        <a class="links" href=""><i class="fa-brands fa-instagram icon"></i>Instagram</a>
+        <a class="links" href=""><i class="fa-brands fa-square-facebook icon"></i>Facebook</a>
+        <a class="links" href=""><i class="fa-brands fa-youtube icon"></i>Youtube</a>
+        <a class="links" href=""><i class="fa-brands fa-github icon"></i>Github</a>
+        <a class="links" href=""><i class="fa-brands fa-linkedin icon"></i>LinkedIn</a>
+    </div>
+    <!--para hacer la raya que separe el contenido del footer con derechos de autor es con hr-->
+    <hr>
+
+
+   <!--derechos de autor-->
+   <div class="final-container">
+    Copyright &copy; 2023 Golden Oil Spain. Todos los derechos reservados
+   </div> 
+  </footer>
+
+</body>
+</html>
